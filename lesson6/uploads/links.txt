@@ -1,0 +1,11 @@
+http://everstudent.ru/blog/htmlcss/30-css-seletors-to-memorize/
+
+http://www.quizful.net/post/specificity-of-css-selectors  
+
+http://lea.verou.me/css3patterns/
+
+https://flexbox.help/
+
+http://www.flexboxdefense.com/ 
+
+https://fontawesome.com/
