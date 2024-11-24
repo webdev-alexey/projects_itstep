@@ -1,0 +1,2 @@
+1. Установить плагин redux и активировать
+https://docs.reduxframework.com/core/getting-started/
