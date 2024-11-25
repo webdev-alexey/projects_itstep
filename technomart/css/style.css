@@ -1,0 +1,125 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+.main-header {
+    background: #293449;
+    min-height: 43px;
+}
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.main-header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+}
+.logo {
+    float: left;
+    width:220px;
+    margin-right: 10px;
+}
+.logo a {
+    font-size: 19px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: #ee3643;
+    box-shadow: #b52933 0 5px 0 0;
+}
+.logo a:hover {
+    background: #b52933;
+}
+.search {
+    float: left;
+    width:220px;
+    margin-right: 10px;
+    padding-top: 12px;
+    position: relative;
+}
+.input {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding-left: 30px;
+    color: #fff;
+    font-size: 17px;
+}
+.input::-webkit-input-placeholder {
+    color: #fff;
+}
+.input:focus {
+    outline: none;
+}
+.search label:before {
+    content: '';
+    display: block;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left:0;
+    top:12px;
+    background: url('../img/search-icon.png');
+}
+.bookmark {
+    float: left;
+    width: 160px;
+    margin-right: 10px;
+    position: relative;
+    padding-top: 12px;
+}
+.bookmark a:before {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left:0;
+    top:12px;
+    background: url('../img/bookmark-icon.png');
+}
+.bookmark a {
+    padding-left: 30px;
+}
+.cart {
+    float: left;
+    width: 150px;
+    margin-right: 10px;
+    position: relative;
+    padding-top: 12px;
+}
+.cart a:before {
+    content: '';
+    display: block;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left:0;
+    top:12px;
+    background: url('../img/cart-icon.png');
+}
+.cart a {
+    padding-left: 30px;
+}
+.order {
+    float: left;
+    width: 150px;
+}
+.order a {
+    display: block;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background: #63a63e;
+}
+.order a:hover {
+    background: #fff;
+    color: #63a63e;
+}
