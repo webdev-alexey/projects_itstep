@@ -1,0 +1,8 @@
+footer{
+    text-align: center; /*текст по середине*/
+}
+
+.article{
+    margin-top: 30px; /*отступ сверху*/
+    margin-bottom: 30px; /*отступ снизу*/
+} 
